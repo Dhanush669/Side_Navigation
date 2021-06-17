@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_camera"
+            android:title="Camera"
+            android:id="@+id/camera">
+        </item>
+        <item
+            android:icon="@drawable/ic_photo"
+            android:title="Image"
+            android:id="@+id/image">
+        </item>
+        <item
+            android:icon="@drawable/ic_slideshow"
+            android:title="SlideShow"
+            android:id="@+id/slideshow">
+        </item>
+        <item
+            android:icon="@drawable/ic_tools"
+            android:title="Tools"
+            android:id="@+id/tools">
+        </item>
+    </group>
+    <item
+        android:title="Category"
+        >
+        <menu>
+            <item
+                android:title="Share"
+                android:icon="@drawable/ic_share"
+                android:id="@+id/share"
+                >
+            </item>
+            <item
+                android:title="Send"
+                android:icon="@drawable/ic_send"
+                android:id="@+id/send"
+                >
+            </item>
+        </menu>
+    </item>
+</menu>
